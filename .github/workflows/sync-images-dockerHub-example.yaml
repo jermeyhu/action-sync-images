@@ -37,3 +37,6 @@ jobs:
         #!/usr/bin/env bash
          skopeo copy docker://docker.io/freeren/qanything-opencloud:v1.0.1 docker://registry.cn-hangzhou.aliyuncs.com/jermey/qanything-opencloud:v1.0.1
          skopeo copy docker://docker.io/library/nginx:latest docker://registry.cn-hangzhou.aliyuncs.com/jermey/nginx:latest
+         skopeo copy docker://docker.elastic.co/elasticsearch/elasticsearch:8.11.4 docker://registry.cn-hangzhou.aliyuncs.com/jermey/elasticsearch:8.11.4
+         skopeo copy docker://docker.io/milvusdb/milvus:v2.3.4 docker://registry.cn-hangzhou.aliyuncs.com/jermey/milvus:v2.3.4
+         skopeo copy docker://docker.io/freeren/qanything-win:v1.2.2 docker://registry.cn-hangzhou.aliyuncs.com/jermey/qanything-win:v1.2.2
