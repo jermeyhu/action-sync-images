@@ -40,3 +40,4 @@ jobs:
          skopeo copy docker://docker.elastic.co/elasticsearch/elasticsearch:8.11.4 docker://registry.cn-hangzhou.aliyuncs.com/jermey/elasticsearch:8.11.4
          skopeo copy docker://docker.io/milvusdb/milvus:v2.3.4 docker://registry.cn-hangzhou.aliyuncs.com/jermey/milvus:v2.3.4
          skopeo copy docker://docker.io/freeren/qanything-win:v1.2.2 docker://registry.cn-hangzhou.aliyuncs.com/jermey/qanything-win:v1.2.2
+         skopeo copy docker://docker.io/library/maven:3.9.6-eclipse-temurin-8 docker://registry.cn-hangzhou.aliyuncs.com/jermey/maven:3.9.6-eclipse-temurin-8
