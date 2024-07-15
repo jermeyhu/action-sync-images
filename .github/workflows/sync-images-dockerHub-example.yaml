@@ -45,4 +45,4 @@ jobs:
          skopeo copy docker://docker.jianmuhub.com/library/mysql:8.0.31 docker://registry.cn-hangzhou.aliyuncs.com/jermey/mysql:8.0.31
          skopeo copy docker://docker.jianmuhub.com/jianmu/jianmu-server:v2.7.2 docker://registry.cn-hangzhou.aliyuncs.com/jermey/jianmu-server:v2.7.2
          skopeo copy docker://docker.jianmuhub.com/jianmu/jianmu-worker-docker:v1.0.9 docker://registry.cn-hangzhou.aliyuncs.com/jermey/jianmu-worker-docker:v1.0.9
-         skopeo copy docker://docker.jianmuhub.com/library/jianmu/jianmu-ui:v2.7.2 docker://registry.cn-hangzhou.aliyuncs.com/jermey/jianmu-ui:v2.7.2
+         skopeo copy docker://docker.jianmuhub.com/jianmu/jianmu-ui:v2.7.2 docker://registry.cn-hangzhou.aliyuncs.com/jermey/jianmu-ui:v2.7.2
