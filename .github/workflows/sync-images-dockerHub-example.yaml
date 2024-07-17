@@ -46,4 +46,4 @@ jobs:
          skopeo copy docker://docker.jianmuhub.com/jianmu/jianmu-server:v2.7.2 docker://registry.cn-hangzhou.aliyuncs.com/jermey/jianmu-server:v2.7.2
          skopeo copy docker://docker.jianmuhub.com/jianmu/jianmu-worker-docker:v1.0.9 docker://registry.cn-hangzhou.aliyuncs.com/jermey/jianmu-worker-docker:v1.0.9
          skopeo copy docker://docker.jianmuhub.com/jianmu/jianmu-ui:v2.7.2 docker://registry.cn-hangzhou.aliyuncs.com/jermey/jianmu-ui:v2.7.2
-         skopeo copy docker://docker.io/puyinzhen/light-chaser docker://registry.cn-hangzhou.aliyuncs.com/jermey/light-chaser
+         skopeo copy docker://docker.io/puyinzhen/light-chaser:v1.2.0 docker://registry.cn-hangzhou.aliyuncs.com/jermey/light-chaser:v1.2.0
