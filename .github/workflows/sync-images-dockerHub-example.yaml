@@ -48,5 +48,6 @@ jobs:
          skopeo copy docker://docker.jianmuhub.com/jianmu/jianmu-ui:v2.7.2 docker://registry.cn-hangzhou.aliyuncs.com/jermey/jianmu-ui:v2.7.2
          skopeo copy docker://docker.io/puyinzhen/light-chaser:v1.2.0 docker://registry.cn-hangzhou.aliyuncs.com/jermey/light-chaser:v1.2.0
          skopeo copy docker://cr2.fit2cloud.com/1panel/maxkb docker://registry.cn-hangzhou.aliyuncs.com/jermey/maxkb
+         skopeo copy docker://docker.io/library/postgres:16.1 docker://registry.cn-hangzhou.aliyuncs.com/jermey/postgres:16.1
 
          skopeo copy docker://docker.io/localai/localai:v2.19.4-ffmpeg docker://registry.cn-hangzhou.aliyuncs.com/jermey/localai:v2.19.4-ffmpeg
