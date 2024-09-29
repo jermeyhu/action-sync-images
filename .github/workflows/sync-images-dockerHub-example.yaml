@@ -51,3 +51,4 @@ jobs:
          skopeo copy docker://docker.io/library/postgres:16.1 docker://registry.cn-hangzhou.aliyuncs.com/jermey/postgres:16.1
 
          skopeo copy docker://docker.io/localai/localai:v2.19.4-ffmpeg docker://registry.cn-hangzhou.aliyuncs.com/jermey/localai:v2.19.4-ffmpeg
+         skopeo copy docker://docker.io/bluenviron/mediamtx:latest-ffmpeg-rpi docker://registry.cn-hangzhou.aliyuncs.com/jermey/mediamtx:latest-ffmpeg-rpi
