@@ -52,3 +52,4 @@ jobs:
 
          skopeo copy docker://docker.io/localai/localai:v2.19.4-ffmpeg docker://registry.cn-hangzhou.aliyuncs.com/jermey/localai:v2.19.4-ffmpeg
          skopeo copy docker://docker.io/bluenviron/mediamtx:1.9.0-ffmpeg-rpi docker://registry.cn-hangzhou.aliyuncs.com/jermey/mediamtx:1.9.0-ffmpeg-rpi
+         skopeo copy docker://docker.io/library/node:20.18-alpine docker://registry.cn-hangzhou.aliyuncs.com/jermey/node:20.18-alpine
