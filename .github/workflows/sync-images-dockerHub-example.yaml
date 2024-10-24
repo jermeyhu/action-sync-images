@@ -35,21 +35,4 @@ jobs:
     - name: Use Skopeo Tools Sync Image to Docker Hub
       run: |
         #!/usr/bin/env bash
-         skopeo copy docker://docker.io/freeren/qanything-opencloud:v1.0.1 docker://registry.cn-hangzhou.aliyuncs.com/jermey/qanything-opencloud:v1.0.1
-         skopeo copy docker://docker.io/library/nginx:latest docker://registry.cn-hangzhou.aliyuncs.com/jermey/nginx:latest
-         skopeo copy docker://docker.elastic.co/elasticsearch/elasticsearch:8.11.4 docker://registry.cn-hangzhou.aliyuncs.com/jermey/elasticsearch:8.11.4
-         skopeo copy docker://docker.io/milvusdb/milvus:v2.3.4 docker://registry.cn-hangzhou.aliyuncs.com/jermey/milvus:v2.3.4
-         skopeo copy docker://docker.io/freeren/qanything-win:v1.2.2 docker://registry.cn-hangzhou.aliyuncs.com/jermey/qanything-win:v1.2.2
-         skopeo copy docker://docker.io/library/maven:3.9.6-eclipse-temurin-8 docker://registry.cn-hangzhou.aliyuncs.com/jermey/maven:3.9.6-eclipse-temurin-8
-
-         skopeo copy docker://docker.jianmuhub.com/library/mysql:8.0.31 docker://registry.cn-hangzhou.aliyuncs.com/jermey/mysql:8.0.31
-         skopeo copy docker://docker.jianmuhub.com/jianmu/jianmu-server:v2.7.2 docker://registry.cn-hangzhou.aliyuncs.com/jermey/jianmu-server:v2.7.2
-         skopeo copy docker://docker.jianmuhub.com/jianmu/jianmu-worker-docker:v1.0.9 docker://registry.cn-hangzhou.aliyuncs.com/jermey/jianmu-worker-docker:v1.0.9
-         skopeo copy docker://docker.jianmuhub.com/jianmu/jianmu-ui:v2.7.2 docker://registry.cn-hangzhou.aliyuncs.com/jermey/jianmu-ui:v2.7.2
-         skopeo copy docker://docker.io/puyinzhen/light-chaser:v1.2.0 docker://registry.cn-hangzhou.aliyuncs.com/jermey/light-chaser:v1.2.0
-         skopeo copy docker://cr2.fit2cloud.com/1panel/maxkb docker://registry.cn-hangzhou.aliyuncs.com/jermey/maxkb
-         skopeo copy docker://docker.io/library/postgres:16.1 docker://registry.cn-hangzhou.aliyuncs.com/jermey/postgres:16.1
-
-         skopeo copy docker://docker.io/localai/localai:v2.19.4-ffmpeg docker://registry.cn-hangzhou.aliyuncs.com/jermey/localai:v2.19.4-ffmpeg
-         skopeo copy docker://docker.io/bluenviron/mediamtx:1.9.0-ffmpeg-rpi docker://registry.cn-hangzhou.aliyuncs.com/jermey/mediamtx:1.9.0-ffmpeg-rpi
          skopeo copy docker://docker.io/library/node:20.18-alpine docker://registry.cn-hangzhou.aliyuncs.com/jermey/node:20.18-alpine
