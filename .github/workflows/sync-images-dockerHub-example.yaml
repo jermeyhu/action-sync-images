@@ -35,29 +35,6 @@ jobs:
     - name: Use Skopeo Tools Sync Image to Docker Hub
       run: |
         #!/usr/bin/env bash
-         skopeo copy docker://kubesphere/devops-controller:v4.1.2 docker://registry.cn-hangzhou.aliyuncs.com/jermey/devops-controller:v4.1.2
-         skopeo copy docker://kubesphere/devops-apiserver:v4.1.2 docker://registry.cn-hangzhou.aliyuncs.com/jermey/devops-apiserver:v4.1.2
-         skopeo copy docker://kubesphere/devops-controller:v4.1.2 docker://registry.cn-hangzhou.aliyuncs.com/jermey/devops-controller:v4.1.2
-         skopeo copy docker://kubesphere/devops-tools:v4.1.2 docker://registry.cn-hangzhou.aliyuncs.com/jermey/devops-tools:v4.1.2
-         skopeo copy docker://kubesphere/devops-jenkins:v4.1.2-2.346.3 docker://registry.cn-hangzhou.aliyuncs.com/jermey/devops-jenkins:v4.1.2-2.346.3
-         skopeo copy docker://jenkins/inbound-agent:4.10-2 docker://registry.cn-hangzhou.aliyuncs.com/jermey/inbound-agent:4.10-2
-         skopeo copy docker://kubesphere/builder-base:v3.2.2 docker://registry.cn-hangzhou.aliyuncs.com/jermey/builder-base:v3.2.2
-         skopeo copy docker://kubesphere/builder-nodejs:v3.2.0 docker://registry.cn-hangzhou.aliyuncs.com/jermey/builder-nodejs:v3.2.0
-         skopeo copy docker://kubesphere/builder-maven:v3.2.0 docker://registry.cn-hangzhou.aliyuncs.com/jermey/builder-maven:v3.2.0
-         skopeo copy docker://kubesphere/builder-maven:v3.2.1-jdk11 docker://registry.cn-hangzhou.aliyuncs.com/jermey/builder-maven:v3.2.1-jdk11
-         skopeo copy docker://kubesphere/builder-python:v3.2.0 docker://registry.cn-hangzhou.aliyuncs.com/jermey/builder-python:v3.2.0
-         skopeo copy docker://kubesphere/builder-go:v3.2.0 docker://registry.cn-hangzhou.aliyuncs.com/jermey/builder-go:v3.2.0
-         skopeo copy docker://kubesphere/builder-go:v3.2.2-1.16 docker://registry.cn-hangzhou.aliyuncs.com/jermey/builder-go:v3.2.2-1.16
-         skopeo copy docker://kubesphere/builder-go:v3.2.2-1.17 docker://registry.cn-hangzhou.aliyuncs.com/jermey/builder-go:v3.2.2-1.17
-         skopeo copy docker://kubesphere/builder-go:v3.2.2-1.18 docker://registry.cn-hangzhou.aliyuncs.com/jermey/builder-go:v3.2.2-1.18
-         skopeo copy docker://kubesphere/builder-base:v3.2.2-podman docker://registry.cn-hangzhou.aliyuncs.com/jermey/builder-base:v3.2.2-podman
-         skopeo copy docker://kubesphere/builder-nodejs:v3.2.0-podman docker://registry.cn-hangzhou.aliyuncs.com/jermey/builder-nodejs:v3.2.0-podman
-         skopeo copy docker://kubesphere/builder-maven:v3.2.0-podman docker://registry.cn-hangzhou.aliyuncs.com/jermey/builder-maven:v3.2.0-podman
-         skopeo copy docker://kubesphere/builder-maven:v3.2.1-jdk11-podman docker://registry.cn-hangzhou.aliyuncs.com/jermey/builder-maven:v3.2.1-jdk11-podman
-         skopeo copy docker://kubesphere/builder-python:v3.2.0-podman docker://registry.cn-hangzhou.aliyuncs.com/jermey/builder-python:v3.2.0-podman
-         skopeo copy docker://kubesphere/builder-go:v3.2.0-podman docker://registry.cn-hangzhou.aliyuncs.com/jermey/builder-go:v3.2.0-podman
-         skopeo copy docker://kubesphere/builder-go:v3.2.2-1.16-podman docker://registry.cn-hangzhou.aliyuncs.com/jermey/builder-go:v3.2.2-1.16-podman
-         skopeo copy docker://kubesphere/builder-go:v3.2.2-1.17-podman docker://registry.cn-hangzhou.aliyuncs.com/jermey/builder-go:v3.2.2-1.17-podman
-         skopeo copy docker://kubesphere/builder-go:v3.2.2-1.18-podman docker://registry.cn-hangzhou.aliyuncs.com/jermey/builder-go:v3.2.2-1.18-podman
+         skopeo copy docker://library/redis:6.2.6-alpine docker://registry.cn-hangzhou.aliyuncs.com/jermey/redis:6.2.6-alpine
          
       
