@@ -35,6 +35,6 @@ jobs:
     - name: Use Skopeo Tools Sync Image to Docker Hub
       run: |
         #!/usr/bin/env bash
-         skopeo copy docker://kubesphere/devops-apiserver:v4.1.2 docker://registry.cn-hangzhou.aliyuncs.com/jermey/devops-apiserver:v4.1.2
+         skopeo copy docker://kubesphere/devops-controller:v4.1.2 docker://registry.cn-hangzhou.aliyuncs.com/jermey/devops-controller:v4.1.2
          
       
