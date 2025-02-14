@@ -53,7 +53,7 @@ jobs:
          skopeo copy docker://kubesphere/builder-base:v3.2.2-podman docker://registry.cn-hangzhou.aliyuncs.com/jermey/builder-base:v3.2.2-podman
          skopeo copy docker://kubesphere/builder-nodejs:v3.2.0-podman docker://registry.cn-hangzhou.aliyuncs.com/jermey/builder-nodejs:v3.2.0-podman
          skopeo copy docker://kubesphere/builder-maven:v3.2.0-podman docker://registry.cn-hangzhou.aliyuncs.com/jermey/builder-maven:v3.2.0-podman
-         skopeo copy docker://kubesphere/builder-maven:v3.2.1-jdk11-podma docker://registry.cn-hangzhou.aliyuncs.com/jermey/builder-maven:v3.2.1-jdk11-podma
+         skopeo copy docker://kubesphere/builder-maven:v3.2.1-jdk11-podman docker://registry.cn-hangzhou.aliyuncs.com/jermey/builder-maven:v3.2.1-jdk11-podman
          skopeo copy docker://kubesphere/builder-python:v3.2.0-podman docker://registry.cn-hangzhou.aliyuncs.com/jermey/builder-python:v3.2.0-podman
          skopeo copy docker://kubesphere/builder-go:v3.2.0-podman docker://registry.cn-hangzhou.aliyuncs.com/jermey/builder-go:v3.2.0-podman
          skopeo copy docker://kubesphere/builder-go:v3.2.2-1.16-podman docker://registry.cn-hangzhou.aliyuncs.com/jermey/builder-go:v3.2.2-1.16-podman
