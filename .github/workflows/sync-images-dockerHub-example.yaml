@@ -35,6 +35,6 @@ jobs:
     - name: Use Skopeo Tools Sync Image to Docker Hub
       run: |
         #!/usr/bin/env bash
-         skopeo copy docker://library/redis:6.2.6-alpine docker://registry.cn-hangzhou.aliyuncs.com/jermey/redis:6.2.6-alpine
+         skopeo copy docker://kubesphere/kubectl:v1.27.16 docker://registry.cn-hangzhou.aliyuncs.com/jermey/kubectl:v1.27.16
          
       
