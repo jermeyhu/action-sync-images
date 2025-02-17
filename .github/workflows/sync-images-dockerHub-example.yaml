@@ -35,6 +35,6 @@ jobs:
     - name: Use Skopeo Tools Sync Image to Docker Hub
       run: |
         #!/usr/bin/env bash
-         skopeo copy docker://apache/iotdb:1.3.2-standalone docker://registry.cn-hangzhou.aliyuncs.com/jermey/iotdb:1.3.2-standalone
+         skopeo copy docker://maven:3.9.9-ibm-semeru-17-focal docker://registry.cn-hangzhou.aliyuncs.com/jermey/maven:3.9.9-ibm-semeru-17-focal
          
       
