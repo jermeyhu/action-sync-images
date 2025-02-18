@@ -35,6 +35,6 @@ jobs:
     - name: Use Skopeo Tools Sync Image to Docker Hub
       run: |
         #!/usr/bin/env bash
-         skopeo copy docker://maven:3.9.9-ibm-semeru-17-focal docker://registry.cn-hangzhou.aliyuncs.com/jermey/maven:3.9.9-ibm-semeru-17-focal
+         skopeo copy docker://kubespheredev/builder-maven:v3.3.1-jdk17-podman docker://registry.cn-hangzhou.aliyuncs.com/jermey/builder-maven:v3.3.1-jdk17-podman
          
       
