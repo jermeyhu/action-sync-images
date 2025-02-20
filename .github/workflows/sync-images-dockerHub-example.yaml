@@ -35,6 +35,6 @@ jobs:
     - name: Use Skopeo Tools Sync Image to Docker Hub
       run: |
         #!/usr/bin/env bash
-         skopeo copy docker://kubesphere/devops-tools:v4.1.2 docker://registry.cn-hangzhou.aliyuncs.com/jermey/devops-tools:v4.1.2
+         skopeo copy docker://kubespheredev/builder-maven:master-jdk17-podman docker://registry.cn-hangzhou.aliyuncs.com/jermey/builder-maven:master-jdk17-podman
          
       
