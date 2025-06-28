@@ -35,6 +35,6 @@ jobs:
     - name: Use Skopeo Tools Sync Image to Docker Hub
       run: |
         #!/usr/bin/env bash
-         skopeo copy docker://quay.io/honestbee/drone-kubernetes docker://registry.cn-hangzhou.aliyuncs.com/jermey/drone-kubernetes
+         skopeo copy docker://docker.io/xprobe/xinference:v1.7.1 docker://registry.cn-hangzhou.aliyuncs.com/jermey/xinference:v1.7.1
          
       
