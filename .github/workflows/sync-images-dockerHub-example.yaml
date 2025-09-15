@@ -35,6 +35,5 @@ jobs:
     - name: Use Skopeo Tools Sync Image to Docker Hub
       run: |
         #!/usr/bin/env bash
-         skopeo copy docker://docker.io/xprobe/xinference:v1.7.1 docker://registry.cn-hangzhou.aliyuncs.com/jermey/xinference:v1.7.1
-         
+         skopeo copy docker://docker.io/library/caddy:latest docker://registry.cn-hangzhou.aliyuncs.com/jermey/caddy:latest
       
