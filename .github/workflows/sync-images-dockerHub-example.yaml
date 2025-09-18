@@ -35,5 +35,4 @@ jobs:
     - name: Use Skopeo Tools Sync Image to Docker Hub
       run: |
         #!/usr/bin/env bash
-         skopeo copy docker://docker.io/containrrr/watchtower:latest docker://registry.cn-hangzhou.aliyuncs.com/jermey/watchtower:latest
-      
+         skopeo copy docker://docker.io/boky/postfix:edge-alpine docker://registry.cn-hangzhou.aliyuncs.com/jermey/postfix:edge-alpine
