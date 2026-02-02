@@ -37,5 +37,6 @@ jobs:
         #!/usr/bin/env bash
          skopeo copy docker://docker.io/cloudreve/cloudreve:3.8.3 docker://registry.cn-hangzhou.aliyuncs.com/jermey/cloudreve:3.8.3
          skopeo copy docker://docker.io/p3terx/aria2-pro docker://registry.cn-hangzhou.aliyuncs.com/jermey/aria2-pro
-         skopeo copy docker://docker.io/photoview/photoview:2 docker://registry.cn-hangzhou.aliyuncs.com/library/mariadb:lts
+         skopeo copy docker://docker.io/photoview/photoview:2 docker://registry.cn-hangzhou.aliyuncs.com/jermey/photoview:2
+         skopeo copy docker://docker.io/library/mariadb:lts  docker://registry.cn-hangzhou.aliyuncs.com/jermey/mariadb:lts
 
