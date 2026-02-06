@@ -35,8 +35,18 @@ jobs:
     - name: Use Skopeo Tools Sync Image to Docker Hub
       run: |
         #!/usr/bin/env bash
-         skopeo copy docker://docker.io/cloudreve/cloudreve:3.8.3 docker://registry.cn-hangzhou.aliyuncs.com/jermey/cloudreve:3.8.3
-         skopeo copy docker://docker.io/p3terx/aria2-pro docker://registry.cn-hangzhou.aliyuncs.com/jermey/aria2-pro
-         skopeo copy docker://docker.io/photoview/photoview:2 docker://registry.cn-hangzhou.aliyuncs.com/jermey/photoview:2
-         skopeo copy docker://docker.io/library/mariadb:lts  docker://registry.cn-hangzhou.aliyuncs.com/jermey/mariadb:lts
+        # NAS
+         skopeo copy docker://docker.io/whyour/qinglong:latest docker://registry.cn-hangzhou.aliyuncs.com/jermey/qinglong:latest
+         skopeo copy docker://docker.io/anujdatar/cups:25.01.01 docker://registry.cn-hangzhou.aliyuncs.com/jermey/cups:25.01.01
+         skopeo copy docker://docker.io/easytier/easytier:latest docker://registry.cn-hangzhou.aliyuncs.com/jermey/easytier:latest
+         skopeo copy docker://docker.io/filebrowser/filebrowser:v2.32.1 docker://registry.cn-hangzhou.aliyuncs.com/jermey/filebrowser:v2.32.1
+         skopeo copy docker://docker.io/ugeek/webdav:amd64  docker://registry.cn-hangzhou.aliyuncs.com/jermey/webdav:amd64
+         skopeo copy docker://docker.io/qbittorrentofficial/qbittorrent-nox:5.0.4-1  docker://registry.cn-hangzhou.aliyuncs.com/jermey/qbittorrent-nox:5.0.4-1
+         skopeo copy docker://docker.io/laoyutang/clash-and-dashboard:latest  docker://registry.cn-hangzhou.aliyuncs.com/jermey/clash-and-dashboard:latest
+         skopeo copy docker://docker.io/dockurr/samba  docker://registry.cn-hangzhou.aliyuncs.com/jermey/samba
+         skopeo copy docker://docker.io/zhiweio/picseal:latest  docker://registry.cn-hangzhou.aliyuncs.com/jermey/picseal:latest
+         skopeo copy docker://docker.io/marcobaobao/yt-dlp-webui  docker://registry.cn-hangzhou.aliyuncs.com/jermey/yt-dlp-webui
+         skopeo copy docker://docker.io/guovern/iptv-api:1.7.3  docker://registry.cn-hangzhou.aliyuncs.com/jermey/iptv-api:1.7.3
+         skopeo copy docker://docker.io/jlesage/handbrake:v26.01.1  docker://registry.cn-hangzhou.aliyuncs.com/jermey/handbrake:v26.01.1
+
 
