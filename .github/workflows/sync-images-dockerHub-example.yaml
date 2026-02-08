@@ -49,5 +49,6 @@ jobs:
          skopeo copy docker://docker.io/guovern/iptv-api:1.7.3  docker://registry.cn-hangzhou.aliyuncs.com/jermey/iptv-api:1.7.3
          skopeo copy docker://docker.io/jlesage/handbrake:v26.01.1  docker://registry.cn-hangzhou.aliyuncs.com/jermey/handbrake:v26.01.1
          skopeo copy docker://docker.io/linuxserver/telegram:6.5.0  docker://registry.cn-hangzhou.aliyuncs.com/jermey/telegram:6.5.0
+         skopeo copy docker://docker.io/budtmo/docker-android:emulator_9.0  docker://registry.cn-hangzhou.aliyuncs.com/jermey/docker-android:emulator_9.0
 
 
