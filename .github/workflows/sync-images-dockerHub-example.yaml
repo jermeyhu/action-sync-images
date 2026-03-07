@@ -51,4 +51,4 @@ jobs:
          skopeo copy docker://docker.io/photoview/photoview:2 docker://registry.cn-hangzhou.aliyuncs.com/jermey/photoview:2
          skopeo copy docker://docker.io/mariadb:lts docker://registry.cn-hangzhou.aliyuncs.com/jermey/mariadb:lts
          skopeo copy docker://docker.io/sipeed/picoclaw:latest docker://registry.cn-hangzhou.aliyuncs.com/jermey/picoclaw:latest
-
+         skopeo copy docker://docker.io/justlikemaki/aiclient-2-api:latest docker://registry.cn-hangzhou.aliyuncs.com/jermey/aiclient-2-api:latest
