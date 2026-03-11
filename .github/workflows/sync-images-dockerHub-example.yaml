@@ -54,5 +54,5 @@ jobs:
          skopeo copy docker://docker.io/justlikemaki/aiclient-2-api:latest docker://registry.cn-hangzhou.aliyuncs.com/jermey/aiclient-2-api:latest
          skopeo copy docker://docker.io/henrygd/beszel:latest docker://registry.cn-hangzhou.aliyuncs.com/jermey/beszel:latest
          skopeo copy docker://docker.io/henrygd/beszel-agent:alpine docker://registry.cn-hangzhou.aliyuncs.com/jermey/beszel-agent:alpine
-         skopeo copy docker://docker.io/ollama/ollama:latest docker://registry.cn-hangzhou.aliyuncs.com/jermey/ollama:latest
+         skopeo copy docker://docker.io/alpine/ollama:latest docker://registry.cn-hangzhou.aliyuncs.com/jermey/ollama:latest
 
