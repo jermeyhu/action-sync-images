@@ -57,5 +57,5 @@ jobs:
          skopeo copy docker://docker.io/henrygd/beszel:latest docker://registry.cn-hangzhou.aliyuncs.com/jermey/beszel:latest
          skopeo copy docker://docker.io/henrygd/beszel-agent:alpine docker://registry.cn-hangzhou.aliyuncs.com/jermey/beszel-agent:alpine
          skopeo copy docker://docker.io/alpine/ollama:latest docker://registry.cn-hangzhou.aliyuncs.com/jermey/ollama:latest
-         skopeo copy docker://docker.io/getwud/wud:latest docker://registry.cn-hangzhou.aliyuncs.com/jermey/wud:latest
+         skopeo copy docker://docker.io/nickfedor/watchtower:latest docker://registry.cn-hangzhou.aliyuncs.com/jermey/watchtower:latest
 
