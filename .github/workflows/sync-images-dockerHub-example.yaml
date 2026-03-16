@@ -58,5 +58,6 @@ jobs:
          skopeo copy docker://docker.io/nickfedor/watchtower:latest docker://registry.cn-hangzhou.aliyuncs.com/jermey/watchtower:latest
          skopeo copy docker://ghcr.io/gethomepage/homepage:latest docker://registry.cn-hangzhou.aliyuncs.com/jermey/homepage:latest
          skopeo copy docker://lscr.io/linuxserver/jellyfin:latest docker://registry.cn-hangzhou.aliyuncs.com/jermey/jellyfin:latest
+         skopeo copy docker://docker.io/vllm/vllm-openai:v0.17.1 docker://registry.cn-hangzhou.aliyuncs.com/jermey/vllm-openai:v0.17.1
          
 
