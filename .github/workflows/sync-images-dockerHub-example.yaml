@@ -61,7 +61,7 @@ jobs:
          skopeo copy docker://docker.io/vllm/vllm-openai:v0.17.1 docker://registry.cn-hangzhou.aliyuncs.com/jermey/vllm-openai:v0.17.1
          skopeo copy docker://ghcr.io/ggml-org/llama.cpp:server-cuda docker://registry.cn-hangzhou.aliyuncs.com/jermey/llama.cpp:server-cuda
          skopeo copy docker://docker.io/calciumion/new-api:latest docker://registry.cn-hangzhou.aliyuncs.com/jermey/new-api:latest
-         skopeo copy docker://ghcr.io/ggml-org/llama.cpp:server-intel docker://registry.cn-hangzhou.aliyuncs.com/jermey/llama.cpp:server-intel
+         skopeo copy docker://ghcr.io/ggml-org/llama.cpp:server-openvino docker://registry.cn-hangzhou.aliyuncs.com/jermey/llama.cpp:server-openvino
 
          
 
