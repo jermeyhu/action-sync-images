@@ -62,6 +62,7 @@ jobs:
          skopeo copy docker://ghcr.io/ggml-org/llama.cpp:server-cuda docker://registry.cn-hangzhou.aliyuncs.com/jermey/llama.cpp:server-cuda
          skopeo copy docker://docker.io/calciumion/new-api:latest docker://registry.cn-hangzhou.aliyuncs.com/jermey/new-api:latest
          skopeo copy docker://ghcr.io/ggml-org/llama.cpp:server-vulkan docker://registry.cn-hangzhou.aliyuncs.com/jermey/llama.cpp:server-vulkan
+         skopeo copy docker://docker.io/ollama/ollama:latest docker://registry.cn-hangzhou.aliyuncs.com/jermey/ollama:latest
 
          
 
