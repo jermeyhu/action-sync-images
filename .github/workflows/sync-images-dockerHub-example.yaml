@@ -41,14 +41,13 @@ jobs:
          skopeo copy docker://docker.io/whyour/qinglong:latest docker://registry.cn-hangzhou.aliyuncs.com/jermey/qinglong:latest
          skopeo copy docker://docker.io/anujdatar/cups:25.01.01 docker://registry.cn-hangzhou.aliyuncs.com/jermey/cups:25.01.01
          skopeo copy docker://docker.io/easytier/easytier:latest docker://registry.cn-hangzhou.aliyuncs.com/jermey/easytier:latest
-         skopeo copy docker://docker.io/filebrowser/filebrowser:v2.32.1 docker://registry.cn-hangzhou.aliyuncs.com/jermey/filebrowser:v2.32.1
+         skopeo copy docker://docker.io/filebrowser/filebrowser:latest docker://registry.cn-hangzhou.aliyuncs.com/jermey/filebrowser:latest
          skopeo copy docker://docker.io/ugeek/webdav:amd64  docker://registry.cn-hangzhou.aliyuncs.com/jermey/webdav:amd64
-         skopeo copy docker://docker.io/qbittorrentofficial/qbittorrent-nox:5.0.4-1  docker://registry.cn-hangzhou.aliyuncs.com/jermey/qbittorrent-nox:5.0.4-1
+         skopeo copy docker://docker.io/qbittorrentofficial/qbittorrent-nox:latest  docker://registry.cn-hangzhou.aliyuncs.com/jermey/qbittorrent-nox:latest
          skopeo copy docker://docker.io/laoyutang/clash-and-dashboard:latest  docker://registry.cn-hangzhou.aliyuncs.com/jermey/clash-and-dashboard:latest
-         skopeo copy docker://docker.io/dockurr/samba  docker://registry.cn-hangzhou.aliyuncs.com/jermey/samba
+         skopeo copy docker://docker.io/dockurr/samba:latest  docker://registry.cn-hangzhou.aliyuncs.com/jermey/samba:latest
          skopeo copy docker://docker.io/zhiweio/picseal:latest  docker://registry.cn-hangzhou.aliyuncs.com/jermey/picseal:latest
-         skopeo copy docker://docker.io/marcobaobao/yt-dlp-webui  docker://registry.cn-hangzhou.aliyuncs.com/jermey/yt-dlp-webui
-         skopeo copy docker://docker.io/guovern/iptv-api:1.7.3  docker://registry.cn-hangzhou.aliyuncs.com/jermey/iptv-api:1.7.3
+         skopeo copy docker://docker.io/marcobaobao/yt-dlp-webui:latest  docker://registry.cn-hangzhou.aliyuncs.com/jermey/yt-dlp-webui:latest
          skopeo copy docker://docker.io/jlesage/handbrake:v26.01.1  docker://registry.cn-hangzhou.aliyuncs.com/jermey/handbrake:v26.01.1t
          skopeo copy docker://docker.io/photoview/photoview:2 docker://registry.cn-hangzhou.aliyuncs.com/jermey/photoview:2
          skopeo copy docker://docker.io/mariadb:lts docker://registry.cn-hangzhou.aliyuncs.com/jermey/mariadb:lts
@@ -58,11 +57,4 @@ jobs:
          skopeo copy docker://docker.io/nickfedor/watchtower:latest docker://registry.cn-hangzhou.aliyuncs.com/jermey/watchtower:latest
          skopeo copy docker://ghcr.io/gethomepage/homepage:latest docker://registry.cn-hangzhou.aliyuncs.com/jermey/homepage:latest
          skopeo copy docker://lscr.io/linuxserver/jellyfin:latest docker://registry.cn-hangzhou.aliyuncs.com/jermey/jellyfin:latest
-         skopeo copy docker://docker.io/vllm/vllm-openai:v0.17.1 docker://registry.cn-hangzhou.aliyuncs.com/jermey/vllm-openai:v0.17.1
-         skopeo copy docker://ghcr.io/ggml-org/llama.cpp:server-cuda docker://registry.cn-hangzhou.aliyuncs.com/jermey/llama.cpp:server-cuda
          skopeo copy docker://docker.io/calciumion/new-api:latest docker://registry.cn-hangzhou.aliyuncs.com/jermey/new-api:latest
-         skopeo copy docker://ghcr.io/ggml-org/llama.cpp:server-vulkan docker://registry.cn-hangzhou.aliyuncs.com/jermey/llama.cpp:server-vulkan
-         skopeo copy docker://docker.io/ollama/ollama:latest docker://registry.cn-hangzhou.aliyuncs.com/jermey/ollama:latest
-
-         
-
