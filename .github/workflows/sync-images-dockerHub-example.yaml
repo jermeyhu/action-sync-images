@@ -58,3 +58,4 @@ jobs:
          skopeo copy docker://ghcr.io/gethomepage/homepage:latest docker://registry.cn-hangzhou.aliyuncs.com/jermey/homepage:latest
          skopeo copy docker://lscr.io/linuxserver/jellyfin:latest docker://registry.cn-hangzhou.aliyuncs.com/jermey/jellyfin:latest
          skopeo copy docker://docker.io/calciumion/new-api:latest docker://registry.cn-hangzhou.aliyuncs.com/jermey/new-api:latest
+         skopeo copy docker://docker.iobluenviron/mediamtx:latest docker://registry.cn-hangzhou.aliyuncs.com/jermey/mediamtx:latest
