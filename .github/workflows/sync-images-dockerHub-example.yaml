@@ -59,3 +59,4 @@ jobs:
          skopeo copy docker://lscr.io/linuxserver/jellyfin:latest docker://registry.cn-hangzhou.aliyuncs.com/jermey/jellyfin:latest
          skopeo copy docker://docker.io/calciumion/new-api:latest docker://registry.cn-hangzhou.aliyuncs.com/jermey/new-api:latest
          skopeo copy docker://docker.io/bluenviron/mediamtx:1.16.3 docker://registry.cn-hangzhou.aliyuncs.com/jermey/mediamtx:1.16.3
+         skopeo copy docker://docker.io/vllm/vllm-openai:v0.19.0 docker://registry.cn-hangzhou.aliyuncs.com/jermey/vllm-openai:v0.19.0
