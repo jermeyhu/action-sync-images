@@ -58,12 +58,14 @@ jobs:
          skopeo copy docker://ghcr.io/gethomepage/homepage:latest docker://registry.cn-hangzhou.aliyuncs.com/jermey/homepage:latest
          skopeo copy docker://lscr.io/linuxserver/jellyfin:latest docker://registry.cn-hangzhou.aliyuncs.com/jermey/jellyfin:latest
          skopeo copy docker://docker.io/calciumion/new-api:latest docker://registry.cn-hangzhou.aliyuncs.com/jermey/new-api:latest
+         skopeo copy docker://docker.io/mzz2017/v2raya:latest docker://registry.cn-hangzhou.aliyuncs.com/jermey/v2raya:latest
+
+        # Inventec
          skopeo copy docker://docker.io/bluenviron/mediamtx:1.16.3 docker://registry.cn-hangzhou.aliyuncs.com/jermey/mediamtx:1.16.3
          skopeo copy docker://docker.io/vllm/vllm-openai:v0.19.1 docker://registry.cn-hangzhou.aliyuncs.com/jermey/vllm-openai:v0.19.1
          skopeo copy docker://ghcr.io/ggml-org/llama.cpp:server-cuda docker://registry.cn-hangzhou.aliyuncs.com/jermey/llama.cpp:server-cuda
          skopeo copy docker://ghcr.io/ggml-org/llama.cpp:server-intel docker://registry.cn-hangzhou.aliyuncs.com/jermey/llama.cpp:server-intel
          skopeo copy docker://ghcr.io/ggml-org/llama.cpp:server docker://registry.cn-hangzhou.aliyuncs.com/jermey/llama.cpp:server
-         skopeo copy docker://docker.io/mzz2017/v2raya docker://registry.cn-hangzhou.aliyuncs.com/jermey/v2raya
          skopeo copy docker://docker.io/lmsysorg/sglang:latest-runtime  docker://registry.cn-hangzhou.aliyuncs.com/jermey/sglang:latest-runtime
          skopeo copy docker://docker.io/velero/velero:v1.17.2  docker://registry.cn-hangzhou.aliyuncs.com/jermey/velero:v1.17.2
          skopeo copy docker://docker.io/velero/velero-plugin-for-aws:v1.14.0 docker://registry.cn-hangzhou.aliyuncs.com/jermey/velero-plugin-for-aws:v1.14.0
