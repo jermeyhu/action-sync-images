@@ -67,3 +67,4 @@ jobs:
          skopeo copy docker://docker.io/vllm/vllm-openai:v0.26.0 docker://registry.cn-hangzhou.aliyuncs.com/jermey/vllm-openai:v0.26.0
          skopeo copy docker://docker.io/velero/velero:v1.17.2  docker://registry.cn-hangzhou.aliyuncs.com/jermey/velero:v1.17.2
          skopeo copy docker://docker.io/velero/velero-plugin-for-aws:v1.14.0 docker://registry.cn-hangzhou.aliyuncs.com/jermey/velero-plugin-for-aws:v1.14.0
+         skopeo copy docker://ghcr.io/ggml-org/llama.cpp:server-cuda docker://registry.cn-hangzhou.aliyuncs.com/jermey/llama.cpp:server-cuda
