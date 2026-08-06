@@ -60,7 +60,8 @@ jobs:
          # skopeo copy docker://docker.io/mzz2017/v2raya:latest docker://registry.cn-hangzhou.aliyuncs.com/jermey/v2raya:latest
          # skopeo copy docker://docker.io/manifestdotbuild/manifest:latest docker://registry.cn-hangzhou.aliyuncs.com/jermey/manifest:latest
          # skopeo copy docker://docker.io/postgres:16-alpine docker://registry.cn-hangzhou.aliyuncs.com/jermey/postgres:16-alpine
-         skopeo copy docker://docker.io/diegosouzapw/omniroute:latest docker://registry.cn-hangzhou.aliyuncs.com/jermey/omniroute:latest
+         # skopeo copy docker://docker.io/diegosouzapw/omniroute:latest docker://registry.cn-hangzhou.aliyuncs.com/jermey/omniroute:latest
+         skopeo copy docker://docker.io/node:22-slim docker://registry.cn-hangzhou.aliyuncs.com/jermey/node:22-slim
 
         # Inventec
          # skopeo copy docker://docker.io/bluenviron/mediamtx:1.16.3 docker://registry.cn-hangzhou.aliyuncs.com/jermey/mediamtx:1.16.3
