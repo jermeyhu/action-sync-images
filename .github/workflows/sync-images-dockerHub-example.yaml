@@ -8,8 +8,8 @@ on:
     branches: [ "main" ]
   pull_request:
     branches: [ "main" ]
-  schedule:
-    - cron: "0 2 * * *"  
+  # schedule:
+  #   - cron: "0 2 * * *"  
 
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
@@ -44,11 +44,10 @@ jobs:
          skopeo copy docker://docker.io/filebrowser/filebrowser:latest docker://registry.cn-hangzhou.aliyuncs.com/jermey/filebrowser:latest
          skopeo copy docker://docker.io/ugeek/webdav:amd64  docker://registry.cn-hangzhou.aliyuncs.com/jermey/webdav:amd64
          skopeo copy docker://docker.io/qbittorrentofficial/qbittorrent-nox:latest  docker://registry.cn-hangzhou.aliyuncs.com/jermey/qbittorrent-nox:latest
-         skopeo copy docker://docker.io/laoyutang/clash-and-dashboard:latest  docker://registry.cn-hangzhou.aliyuncs.com/jermey/clash-and-dashboard:latest
          skopeo copy docker://docker.io/dockurr/samba:4.22  docker://registry.cn-hangzhou.aliyuncs.com/jermey/samba:4.22
          skopeo copy docker://docker.io/zhiweio/picseal:latest  docker://registry.cn-hangzhou.aliyuncs.com/jermey/picseal:latest
          skopeo copy docker://docker.io/marcobaobao/yt-dlp-webui:latest  docker://registry.cn-hangzhou.aliyuncs.com/jermey/yt-dlp-webui:latest
-         skopeo copy docker://docker.io/jlesage/handbrake:v26.01.1  docker://registry.cn-hangzhou.aliyuncs.com/jermey/handbrake:v26.01.1t
+         # skopeo copy docker://docker.io/jlesage/handbrake:v26.01.1  docker://registry.cn-hangzhou.aliyuncs.com/jermey/handbrake:v26.01.1t
          skopeo copy docker://docker.io/photoview/photoview:2 docker://registry.cn-hangzhou.aliyuncs.com/jermey/photoview:2
          skopeo copy docker://docker.io/mariadb:lts docker://registry.cn-hangzhou.aliyuncs.com/jermey/mariadb:lts
          skopeo copy docker://docker.io/justlikemaki/aiclient-2-api:latest docker://registry.cn-hangzhou.aliyuncs.com/jermey/aiclient-2-api:latest
