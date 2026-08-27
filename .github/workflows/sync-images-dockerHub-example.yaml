@@ -71,4 +71,4 @@ jobs:
          # skopeo copy docker://ghcr.io/ggml-org/llama.cpp:server-cuda docker://registry.cn-hangzhou.aliyuncs.com/jermey/llama.cpp:server-cuda
          # skopeo copy docker://docker.io/lmsysorg/sglang:latest docker://registry.cn-hangzhou.aliyuncs.com/jermey/sglang:latest
          # skopeo copy docker://docker.io/lmcache/standalone:v0.5.3 docker://registry.cn-hangzhou.aliyuncs.com/jermey/standalone:v0.5.3
-         # skopeo copy docker://docker.io/lightseekorg/tokenspeed-runner:latest docker://registry.cn-hangzhou.aliyuncs.com/jermey/tokenspeed-runner:latest
+         skopeo copy docker://docker.io/lightseekorg/tokenspeed-runner:latest docker://registry.cn-hangzhou.aliyuncs.com/jermey/tokenspeed-runner:latest
