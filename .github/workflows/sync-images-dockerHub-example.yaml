@@ -72,4 +72,4 @@ jobs:
          # skopeo copy docker://docker.io/lmsysorg/sglang:latest docker://registry.cn-hangzhou.aliyuncs.com/jermey/sglang:latest
          # skopeo copy docker://docker.io/lmcache/standalone:v0.5.3 docker://registry.cn-hangzhou.aliyuncs.com/jermey/standalone:v0.5.3
          # skopeo copy docker://docker.io/lightseekorg/tokenspeed-runner:latest docker://registry.cn-hangzhou.aliyuncs.com/jermey/tokenspeed-runner:latest
-         skopeo copy docker://docker.io/ultralytics/ultralytics:latest docker://registry.cn-hangzhou.aliyuncs.com/jermey/ultralytics:latest
+         skopeo copy docker://docker.io/ultralytics/ultralytics:latest-export docker://registry.cn-hangzhou.aliyuncs.com/jermey/ultralytics:latest-export
