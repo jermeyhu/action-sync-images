@@ -59,8 +59,10 @@ jobs:
          # skopeo copy docker://docker.io/mzz2017/v2raya:latest docker://registry.cn-hangzhou.aliyuncs.com/jermey/v2raya:latest
          # skopeo copy docker://docker.io/postgres:16-alpine docker://registry.cn-hangzhou.aliyuncs.com/jermey/postgres:16-alpine
          # skopeo copy docker://docker.litellm.ai/berriai/litellm:v1.100.1 docker://registry.cn-hangzhou.aliyuncs.com/jermey/litellm:v1.100.1
-         skopeo copy --all=false --format v2s2 docker://docker.io/enterpilot/gomodel:latest docker://registry.cn-hangzhou.aliyuncs.com/jermey/gomodel:latest
-
+         docker pull docker.io/enterpilot/gomodel:latest
+         docker tag docker.io/enterpilot/gomodel:latest registry.cn-hangzhou.aliyuncs.com/jermey/gomodel:latest
+         docker push registry.cn-hangzhou.aliyuncs.com/jermey/gomodel:latest
+         
         # Inventec
          # skopeo copy docker://docker.io/bluenviron/mediamtx:1.16.3 docker://registry.cn-hangzhou.aliyuncs.com/jermey/mediamtx:1.16.3
          # skopeo copy docker://docker.io/vllm/vllm-openai:v0.28.0 docker://registry.cn-hangzhou.aliyuncs.com/jermey/vllm-openai:v0.28.0
