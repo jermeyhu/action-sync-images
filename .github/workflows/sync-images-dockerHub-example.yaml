@@ -60,7 +60,7 @@ jobs:
          # skopeo copy docker://docker.io/mzz2017/v2raya:latest docker://registry.cn-hangzhou.aliyuncs.com/jermey/v2raya:latest
          # skopeo copy docker://docker.io/postgres:16-alpine docker://registry.cn-hangzhou.aliyuncs.com/jermey/postgres:16-alpine
          # skopeo copy docker://docker.litellm.ai/berriai/litellm:v1.100.1 docker://registry.cn-hangzhou.aliyuncs.com/jermey/litellm:v1.100.1
-         skopeo copy docker://docker.io/shmayro/dockerify-android:latest docker://registry.cn-hangzhou.aliyuncs.com/jermey/dockerify-android:latest
+         skopeo copy docker://docker.io/redroid/redroid:12.0.0-latest docker://registry.cn-hangzhou.aliyuncs.com/jermey/redroid:12.0.0-latest
          skopeo copy docker://docker.io/shmayro/scrcpy-web:latest docker://registry.cn-hangzhou.aliyuncs.com/jermey/scrcpy-web:latest
          
         # Inventec
