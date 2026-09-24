@@ -73,4 +73,4 @@ jobs:
          # skopeo copy docker://docker.io/lmsysorg/sglang:latest docker://registry.cn-hangzhou.aliyuncs.com/jermey/sglang:latest
          # skopeo copy docker://docker.io/ultralytics/ultralytics:latest-export docker://registry.cn-hangzhou.aliyuncs.com/jermey/ultralytics:latest-export
          # skopeo copy docker://docker.io/library/redis:8.8.2 docker://registry.cn-hangzhou.aliyuncs.com/jermey/redis:8.8.2
-         skopeo copy docker://docker pull ghcr.io/tencentcloud/octop:1.0.2b2 docker://registry.cn-hangzhou.aliyuncs.com/jermey/octop:1.0.2b2
+         skopeo copy docker://ghcr.io/tencentcloud/octop:1.0.2b2 docker://registry.cn-hangzhou.aliyuncs.com/jermey/octop:1.0.2b2
