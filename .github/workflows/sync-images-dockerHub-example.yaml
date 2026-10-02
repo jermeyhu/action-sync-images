@@ -63,7 +63,8 @@ jobs:
          # skopeo copy docker://docker.io/redroid/redroid:12.0.0-latest docker://registry.cn-hangzhou.aliyuncs.com/jermey/redroid:12.0.0-latest
          # skopeo copy docker://docker.io/shmayro/scrcpy-web:latest docker://registry.cn-hangzhou.aliyuncs.com/jermey/scrcpy-web:latest
          # docker pull enterpilot/gomodel:latest && docker tag enterpilot/gomodel:latest registry.cn-hangzhou.aliyuncs.com/jermey/gomodel:latest && docker push registry.cn-hangzhou.aliyuncs.com/jermey/gomodel:latest
-         skopeo copy docker://ghcr.io/ggml-org/llama.cpp:server docker://registry.cn-hangzhou.aliyuncs.com/jermey/llama.cpp:server
+         # skopeo copy docker://ghcr.io/ggml-org/llama.cpp:server docker://registry.cn-hangzhou.aliyuncs.com/jermey/llama.cpp:server
+         skopeo copy docker://docker.io/manifestdotbuild/manifest:latest docker://registry.cn-hangzhou.aliyuncs.com/jermey/manifest:lates
          
          
         # Inventec
