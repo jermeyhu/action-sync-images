@@ -66,7 +66,6 @@ jobs:
          # skopeo copy docker://ghcr.io/ggml-org/llama.cpp:server docker://registry.cn-hangzhou.aliyuncs.com/jermey/llama.cpp:server
          # skopeo copy docker://docker.io/manifestdotbuild/manifest:6.28.1 docker://registry.cn-hangzhou.aliyuncs.com/jermey/manifest:6.28.1
          skopeo copy docker://docker.io/josh5/unmanic:latest docker://registry.cn-hangzhou.aliyuncs.com/jermey/unmanic:latest
-         skopeo copy docker://docker.io/josh5/enterpilot/gomodel:latest docker://registry.cn-hangzhou.aliyuncs.com/jermey/gomodel:latest
          
          
         # Inventec
