@@ -39,7 +39,7 @@ jobs:
       run: |
         #!/usr/bin/env bash
         # NAS
-         # docker pull enterpilot/gomodel:latest && docker tag enterpilot/gomodel:latest registry.cn-hangzhou.aliyuncs.com/jermey/gomodel:latest && docker push registry.cn-hangzhou.aliyuncs.com/jermey/gomodel:latest
+         docker pull enterpilot/gomodel:latest && docker tag enterpilot/gomodel:latest registry.cn-hangzhou.aliyuncs.com/jermey/gomodel:latest && docker push registry.cn-hangzhou.aliyuncs.com/jermey/gomodel:latest
          # skopeo copy docker://docker.io/whyour/qinglong:latest docker://registry.cn-hangzhou.aliyuncs.com/jermey/qinglong:latest
          # skopeo copy docker://docker.io/anujdatar/cups:25.01.01 docker://registry.cn-hangzhou.aliyuncs.com/jermey/cups:25.01.01
          # skopeo copy docker://docker.io/easytier/easytier:latest docker://registry.cn-hangzhou.aliyuncs.com/jermey/easytier:latest
@@ -78,4 +78,4 @@ jobs:
          # skopeo copy docker://docker.io/ultralytics/ultralytics:latest-export docker://registry.cn-hangzhou.aliyuncs.com/jermey/ultralytics:latest-export
          # skopeo copy docker://docker.io/library/redis:8.8.2 docker://registry.cn-hangzhou.aliyuncs.com/jermey/redis:8.8.2
          # skopeo copy docker://ghcr.io/tencentcloud/octop:1.0.2b5 docker://registry.cn-hangzhou.aliyuncs.com/jermey/octop:1.0.2b5
-         skopeo copy docker://docker.io/library/python:3.13-bookworm docker://registry.cn-hangzhou.aliyuncs.com/jermey/python:3.13-bookworm
+         # skopeo copy docker://docker.io/library/python:3.13-bookworm docker://registry.cn-hangzhou.aliyuncs.com/jermey/python:3.13-bookworm
