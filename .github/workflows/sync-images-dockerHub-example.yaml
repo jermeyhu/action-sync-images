@@ -64,7 +64,7 @@ jobs:
          # skopeo copy docker://docker.io/redroid/redroid:12.0.0-latest docker://registry.cn-hangzhou.aliyuncs.com/jermey/redroid:12.0.0-latest
          # skopeo copy docker://docker.io/shmayro/scrcpy-web:latest docker://registry.cn-hangzhou.aliyuncs.com/jermey/scrcpy-web:latest
          # skopeo copy docker://ghcr.io/ggml-org/llama.cpp:server docker://registry.cn-hangzhou.aliyuncs.com/jermey/llama.cpp:server
-         skopeo copy docker://docker.io/manifestdotbuild/manifest:latest docker://registry.cn-hangzhou.aliyuncs.com/jermey/manifest:latest
+         # skopeo copy docker://docker.io/manifestdotbuild/manifest:latest docker://registry.cn-hangzhou.aliyuncs.com/jermey/manifest:latest
          # skopeo copy docker://docker.io/josh5/unmanic:latest docker://registry.cn-hangzhou.aliyuncs.com/jermey/unmanic:latest
          
          
@@ -77,5 +77,5 @@ jobs:
          # skopeo copy docker://docker.io/lmsysorg/sglang:latest docker://registry.cn-hangzhou.aliyuncs.com/jermey/sglang:latest
          # skopeo copy docker://docker.io/ultralytics/ultralytics:latest-export docker://registry.cn-hangzhou.aliyuncs.com/jermey/ultralytics:latest-export
          # skopeo copy docker://docker.io/library/redis:8.8.2 docker://registry.cn-hangzhou.aliyuncs.com/jermey/redis:8.8.2
-         # skopeo copy docker://ghcr.io/tencentcloud/octop:1.0.2b5 docker://registry.cn-hangzhou.aliyuncs.com/jermey/octop:1.0.2b5
+         skopeo copy docker://ghcr.io/tencentcloud/octop:1.0.2 docker://registry.cn-hangzhou.aliyuncs.com/jermey/octop:1.0.2
          # skopeo copy docker://docker.io/library/python:3.13-bookworm docker://registry.cn-hangzhou.aliyuncs.com/jermey/python:3.13-bookworm
