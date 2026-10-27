@@ -40,32 +40,23 @@ jobs:
         #!/usr/bin/env bash
         # NAS
          docker pull enterpilot/gomodel:latest && docker tag enterpilot/gomodel:latest registry.cn-hangzhou.aliyuncs.com/jermey/gomodel:latest && docker push registry.cn-hangzhou.aliyuncs.com/jermey/gomodel:latest
-         # skopeo copy docker://docker.io/whyour/qinglong:latest docker://registry.cn-hangzhou.aliyuncs.com/jermey/qinglong:latest
-         # skopeo copy docker://docker.io/anujdatar/cups:25.01.01 docker://registry.cn-hangzhou.aliyuncs.com/jermey/cups:25.01.01
-         # skopeo copy docker://docker.io/easytier/easytier:latest docker://registry.cn-hangzhou.aliyuncs.com/jermey/easytier:latest
-         # skopeo copy docker://docker.io/filebrowser/filebrowser:latest docker://registry.cn-hangzhou.aliyuncs.com/jermey/filebrowser:latest
-         # skopeo copy docker://docker.io/ugeek/webdav:amd64  docker://registry.cn-hangzhou.aliyuncs.com/jermey/webdav:amd64
-         # skopeo copy docker://docker.io/qbittorrentofficial/qbittorrent-nox:latest  docker://registry.cn-hangzhou.aliyuncs.com/jermey/qbittorrent-nox:latest
-         # skopeo copy docker://docker.io/dockurr/samba:4.22  docker://registry.cn-hangzhou.aliyuncs.com/jermey/samba:4.22
-         # skopeo copy docker://docker.io/zhiweio/picseal:latest  docker://registry.cn-hangzhou.aliyuncs.com/jermey/picseal:latest
-         # skopeo copy docker://docker.io/marcobaobao/yt-dlp-webui:latest  docker://registry.cn-hangzhou.aliyuncs.com/jermey/yt-dlp-webui:latest
-         # skopeo copy docker://docker.io/jlesage/handbrake:v26.01.1  docker://registry.cn-hangzhou.aliyuncs.com/jermey/handbrake:v26.01.1t
-         # skopeo copy docker://docker.io/photoview/photoview:2 docker://registry.cn-hangzhou.aliyuncs.com/jermey/photoview:2
-         # skopeo copy docker://docker.io/mariadb:lts docker://registry.cn-hangzhou.aliyuncs.com/jermey/mariadb:lts
-         # skopeo copy docker://docker.io/henrygd/beszel:latest docker://registry.cn-hangzhou.aliyuncs.com/jermey/beszel:latest
-         # skopeo copy docker://docker.io/henrygd/beszel-agent:alpine docker://registry.cn-hangzhou.aliyuncs.com/jermey/beszel-agent:alpine
-         # skopeo copy docker://docker.io/nickfedor/watchtower:latest docker://registry.cn-hangzhou.aliyuncs.com/jermey/watchtower:latest
-         # skopeo copy docker://ghcr.io/gethomepage/homepage:latest docker://registry.cn-hangzhou.aliyuncs.com/jermey/homepage:latest
-         # skopeo copy docker://lscr.io/linuxserver/jellyfin:latest docker://registry.cn-hangzhou.aliyuncs.com/jermey/jellyfin:latest
-         # skopeo copy docker://docker.io/calciumion/new-api:latest docker://registry.cn-hangzhou.aliyuncs.com/jermey/new-api:latest
-         # skopeo copy docker://docker.io/mzz2017/v2raya:latest docker://registry.cn-hangzhou.aliyuncs.com/jermey/v2raya:latest
-         # skopeo copy docker://docker.io/postgres:16-alpine docker://registry.cn-hangzhou.aliyuncs.com/jermey/postgres:16-alpine
-         # skopeo copy docker://docker.litellm.ai/berriai/litellm:v1.100.1 docker://registry.cn-hangzhou.aliyuncs.com/jermey/litellm:v1.100.1
-         # skopeo copy docker://docker.io/redroid/redroid:12.0.0-latest docker://registry.cn-hangzhou.aliyuncs.com/jermey/redroid:12.0.0-latest
-         # skopeo copy docker://docker.io/shmayro/scrcpy-web:latest docker://registry.cn-hangzhou.aliyuncs.com/jermey/scrcpy-web:latest
-         # skopeo copy docker://ghcr.io/ggml-org/llama.cpp:server docker://registry.cn-hangzhou.aliyuncs.com/jermey/llama.cpp:server
-         # skopeo copy docker://docker.io/manifestdotbuild/manifest:latest docker://registry.cn-hangzhou.aliyuncs.com/jermey/manifest:latest
-         # skopeo copy docker://docker.io/josh5/unmanic:latest docker://registry.cn-hangzhou.aliyuncs.com/jermey/unmanic:latest
+         skopeo copy docker://docker.io/whyour/qinglong:latest docker://registry.cn-hangzhou.aliyuncs.com/jermey/qinglong:latest
+         skopeo copy docker://docker.io/anujdatar/cups:25.01.01 docker://registry.cn-hangzhou.aliyuncs.com/jermey/cups:25.01.01
+         skopeo copy docker://docker.io/easytier/easytier:latest docker://registry.cn-hangzhou.aliyuncs.com/jermey/easytier:latest
+         skopeo copy docker://docker.io/filebrowser/filebrowser:latest docker://registry.cn-hangzhou.aliyuncs.com/jermey/filebrowser:latest
+         skopeo copy docker://docker.io/ugeek/webdav:amd64  docker://registry.cn-hangzhou.aliyuncs.com/jermey/webdav:amd64
+         skopeo copy docker://docker.io/qbittorrentofficial/qbittorrent-nox:latest  docker://registry.cn-hangzhou.aliyuncs.com/jermey/qbittorrent-nox:latest
+         skopeo copy docker://docker.io/dockurr/samba:4.22  docker://registry.cn-hangzhou.aliyuncs.com/jermey/samba:4.22
+         skopeo copy docker://docker.io/zhiweio/picseal:latest  docker://registry.cn-hangzhou.aliyuncs.com/jermey/picseal:latest
+         skopeo copy docker://docker.io/marcobaobao/yt-dlp-webui:latest  docker://registry.cn-hangzhou.aliyuncs.com/jermey/yt-dlp-webui:latest
+         skopeo copy docker://docker.io/photoview/photoview:2 docker://registry.cn-hangzhou.aliyuncs.com/jermey/photoview:2
+         skopeo copy docker://docker.io/mariadb:lts docker://registry.cn-hangzhou.aliyuncs.com/jermey/mariadb:lts
+         skopeo copy docker://docker.io/henrygd/beszel:latest docker://registry.cn-hangzhou.aliyuncs.com/jermey/beszel:latest
+         skopeo copy docker://docker.io/henrygd/beszel-agent:alpine docker://registry.cn-hangzhou.aliyuncs.com/jermey/beszel-agent:alpine
+         skopeo copy docker://ghcr.io/gethomepage/homepage:latest docker://registry.cn-hangzhou.aliyuncs.com/jermey/homepage:latest
+         skopeo copy docker://lscr.io/linuxserver/jellyfin:latest docker://registry.cn-hangzhou.aliyuncs.com/jermey/jellyfin:latest
+         skopeo copy docker://docker.io/calciumion/new-api:latest docker://registry.cn-hangzhou.aliyuncs.com/jermey/new-api:latest
+         skopeo copy docker://docker.io/mzz2017/v2raya:latest docker://registry.cn-hangzhou.aliyuncs.com/jermey/v2raya:latest
          
          
         # Inventec
@@ -74,9 +65,8 @@ jobs:
          # skopeo copy docker://docker.io/velero/velero:v1.17.2  docker://registry.cn-hangzhou.aliyuncs.com/jermey/velero:v1.17.2
          # skopeo copy docker://docker.io/velero/velero-plugin-for-aws:v1.14.0 docker://registry.cn-hangzhou.aliyuncs.com/jermey/velero-plugin-for-aws:v1.14.0
          # skopeo copy docker://ghcr.io/ggml-org/llama.cpp:server-cuda docker://registry.cn-hangzhou.aliyuncs.com/jermey/llama.cpp:server-cuda
-         # skopeo copy docker://docker.io/lmsysorg/sglang:latest docker://registry.cn-hangzhou.aliyuncs.com/jermey/sglang:latest
          # skopeo copy docker://docker.io/ultralytics/ultralytics:latest-export docker://registry.cn-hangzhou.aliyuncs.com/jermey/ultralytics:latest-export
          # skopeo copy docker://docker.io/library/redis:8.8.2 docker://registry.cn-hangzhou.aliyuncs.com/jermey/redis:8.8.2
          # skopeo copy docker://ghcr.io/tencentcloud/octop:1.0.2 docker://registry.cn-hangzhou.aliyuncs.com/jermey/octop:1.0.2
          # skopeo copy docker://docker.io/library/python:3.13-bookworm docker://registry.cn-hangzhou.aliyuncs.com/jermey/python:3.13-bookworm
-         skopeo copy docker://docker.io/library/matomo:latest docker://registry.cn-hangzhou.aliyuncs.com/jermey/matomo:latest
+         # skopeo copy docker://docker.io/library/matomo:latest docker://registry.cn-hangzhou.aliyuncs.com/jermey/matomo:latest
