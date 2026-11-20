@@ -61,10 +61,11 @@ jobs:
          
         # Inventec
          # skopeo copy docker://docker.io/bluenviron/mediamtx:1.16.3 docker://registry.cn-hangzhou.aliyuncs.com/jermey/mediamtx:1.16.3
-         skopeo copy docker://docker.io/vllm/vllm-openai:v0.34.0 docker://registry.cn-hangzhou.aliyuncs.com/jermey/vllm-openai:v0.34.0
-         skopeo copy docker://docker.io/casbin/casvisor docker://registry.cn-hangzhou.aliyuncs.com/jermey/casvisor
-         skopeo copy docker://docker.io/milvusdb/milvus:v2.5.5 docker://registry.cn-hangzhou.aliyuncs.com/jermey/milvus:v2.5.5
+         # skopeo copy docker://docker.io/vllm/vllm-openai:v0.34.0 docker://registry.cn-hangzhou.aliyuncs.com/jermey/vllm-openai:v0.34.0
+         # skopeo copy docker://docker.io/casbin/casvisor docker://registry.cn-hangzhou.aliyuncs.com/jermey/casvisor
+         # skopeo copy docker://docker.io/milvusdb/milvus:v2.5.5 docker://registry.cn-hangzhou.aliyuncs.com/jermey/milvus:v2.5.5
          # skopeo copy docker://docker.io/velero/velero:v1.17.2  docker://registry.cn-hangzhou.aliyuncs.com/jermey/velero:v1.17.2
+         skopeo copy docker://docker.io/openresty/openresty:1.31.8.1-alpine-fat docker://registry.cn-hangzhou.aliyuncs.com/jermey/openresty:1.31.8.1-alpine-fat
          # skopeo copy docker://docker.io/velero/velero-plugin-for-aws:v1.14.0 docker://registry.cn-hangzhou.aliyuncs.com/jermey/velero-plugin-for-aws:v1.14.0
          # skopeo copy docker://ghcr.io/ggml-org/llama.cpp:server-cuda docker://registry.cn-hangzhou.aliyuncs.com/jermey/llama.cpp:server-cuda
          # skopeo copy docker://docker.io/ultralytics/ultralytics:latest-export docker://registry.cn-hangzhou.aliyuncs.com/jermey/ultralytics:latest-export
